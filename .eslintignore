@@ -1,0 +1,12 @@
+node_modules
+/build
+/public/build
+shopify-app-remix
+*/*.yml
+.shopify
+.env
+/app/services/__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx

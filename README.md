@@ -29,7 +29,7 @@ As AI shopping assistants become mainstream (50%+ of ecommerce searches expected
 - **Store-wide metrics**: Track performance across your entire catalog
 
 ### 🌟 **Customer Review Integration**
-- **Judge.me integration**: Leverage actual customer language and feedback
+- **Judge.me integration**: Leverage actual customer language and feedback to improve the recommendation engine
 - **Customer-praised benefits highlighting**: Emphasize what customers actually love
 - **Concern addressing**: Proactively address common complaints in descriptions
 - **Missing keyword identification**: Find important terms customers use but you don't

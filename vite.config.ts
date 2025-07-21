@@ -17,8 +17,12 @@ if (
   delete process.env.HOST;
 }
 
-const host = new URL(process.env.SHOPIFY_APP_URL || "http://localhost")
-  .hostname;
+// Provide defaults for build environment
+const defaultUrl = process.env.NODE_ENV === 'production' 
+  ? (process.env.RAILWAY_STATIC_URL || 'https://app.railway.app')
+  : 'http://localhost:3000';
+
+const host = new URL(process.env.SHOPIFY_APP_URL || defaultUrl).hostname;
 
 let hmrConfig;
 if (host === "localhost") {
@@ -32,7 +36,7 @@ if (host === "localhost") {
   hmrConfig = {
     protocol: "wss",
     host: host,
-    port: parseInt(process.env.FRONTEND_PORT!) || 8002,
+    port: parseInt(process.env.FRONTEND_PORT || "8002"),
     clientPort: 443,
   };
 }

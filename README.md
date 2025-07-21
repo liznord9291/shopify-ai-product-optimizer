@@ -11,7 +11,13 @@ A production-ready Shopify app that analyzes and optimizes product descriptions 
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-orange)](https://openai.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🎯 Problem Statement
+## 🌐 Live Demo
+
+**🚀 Production URL:** [https://shopify-ai-product-optimizer.onrender.com](https://shopify-ai-product-optimizer.onrender.com)
+
+*The app is deployed on Render with production-grade configuration including environment management, database migrations, and health monitoring.*
+
+## �� Problem Statement
 
 As AI shopping assistants become mainstream (50%+ of ecommerce searches expected by 2025), product content optimized for traditional SEO often fails to match AI recommendation algorithms. This app bridges that gap by analyzing and optimizing product descriptions specifically for Large Language Model (LLM) discoverability.
 
@@ -190,18 +196,33 @@ npm run test:run
 
 ## 🚀 Deployment
 
-### Shopify Partners
+### ✅ Production Deployment
+**Live on Render:** [https://shopify-ai-product-optimizer.onrender.com](https://shopify-ai-product-optimizer.onrender.com)
+
+The app is successfully deployed to production with:
+- ✅ **Automatic deployments** from GitHub main branch
+- ✅ **Environment variable management** for secure API keys
+- ✅ **Database migrations** with SQLite (production-ready PostgreSQL configuration available)
+- ✅ **Health monitoring** and uptime tracking
+- ✅ **Build optimization** with proper dependency management
+
+### Shopify Partners (Development)
 ```bash
 npm run deploy
 ```
 
-### Custom Hosting (Heroku, Railway, etc.)
+### Custom Hosting Setup
 ```bash
+# Build for production
 npm run build
+
+# Start production server
 npm start
 ```
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+**Important:** Ensure `@shopify/shopify-app-remix` is in `dependencies` (not `devDependencies`) for successful production builds.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment instructions and troubleshooting guide.
 
 ## 📊 Metrics & Monitoring
 

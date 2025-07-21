@@ -19,4 +19,4 @@ Developed a production-ready Shopify app that leverages OpenAI's GPT models to a
 
 **Impact:** Provides actionable recommendations that improve product discoverability across AI search platforms, addressing the evolving e-commerce landscape.
 
-[View Project](https://github.com/liznord9291/shopify-ai-product-optimizer) | [Live Demo](link-if-deployed) 
+[View Project](https://github.com/liznord9291/shopify-ai-product-optimizer) | [Live Demo](https://shopify-ai-product-optimizer.onrender.com) 

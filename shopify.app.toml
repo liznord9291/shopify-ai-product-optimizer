@@ -3,12 +3,12 @@
 client_id = "114ab8fa7f26210af8e4f8748c3bcd93"
 name = "AI Readability 2.0"
 handle = "ai-readability-2-0"
-application_url = "https://bs-cayman-outputs-avoiding.trycloudflare.com"
+application_url = "https://shopify-ai-product-optimizer.onrender.com"
 embedded = true
 
 [build]
 include_config_on_deploy = true
-automatically_update_urls_on_dev = true
+automatically_update_urls_on_dev = false
 
 [webhooks]
 api_version = "2025-04"
@@ -27,9 +27,9 @@ scopes = "write_products,read_products,read_content,write_content,read_themes,re
 
 [auth]
 redirect_urls = [
-  "https://bs-cayman-outputs-avoiding.trycloudflare.com/auth/callback",
-  "https://bs-cayman-outputs-avoiding.trycloudflare.com/auth/shopify/callback",
-  "https://bs-cayman-outputs-avoiding.trycloudflare.com/api/auth/callback"
+  "https://shopify-ai-product-optimizer.onrender.com/auth/callback",
+  "https://shopify-ai-product-optimizer.onrender.com/auth/shopify/callback", 
+  "https://shopify-ai-product-optimizer.onrender.com/api/auth/callback"
 ]
 
 [pos]

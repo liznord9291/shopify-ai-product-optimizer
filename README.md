@@ -251,33 +251,6 @@ The app includes built-in monitoring for:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **OpenAI** for providing the GPT-3.5 API that powers the content analysis
-- **Shopify** for the robust app development platform and APIs
-- **Judge.me** for the review integration capabilities
-- **Remix Team** for the excellent full-stack React framework
-
-## 📞 Contact & Support
-
-- **Portfolio**: [Your Portfolio Website]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [your.email@example.com]
-
----
-
-## 🎓 Educational Value
-
-This project demonstrates:
-
-- **Modern Full-Stack Development**: React, TypeScript, Node.js, API integration
-- **Production-Ready Patterns**: Error handling, caching, rate limiting, testing
-- **AI Integration**: Practical LLM usage with cost optimization
-- **SaaS Architecture**: Multi-tenant app design with security best practices
-- **DevOps**: Testing, deployment, monitoring, and documentation
-
-Perfect for showcasing technical skills to potential employers or as a learning resource for other developers.
-
 ---
 
 *Built with ❤️ for the future of AI-powered ecommerce*
